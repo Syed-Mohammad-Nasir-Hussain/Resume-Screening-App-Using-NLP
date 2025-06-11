@@ -1,7 +1,8 @@
 streamlit
-spacy
-PyPDF2
 sentence-transformers
+spacy==3.5.4
+blis==0.7.9
+PyPDF2
 pandas
-torch
+torch==2.2.2  # or a version compatible with sentence-transformers
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
