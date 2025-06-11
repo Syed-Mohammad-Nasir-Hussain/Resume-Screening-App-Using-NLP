@@ -2,6 +2,8 @@
 
 A **Streamlit-based web application** for screening resumes against job descriptions using **Natural Language Processing (NLP)**. The app supports both single and multiple resume comparisons, extracts key entities, and provides a semantic similarity score using Sentence Transformers.
 
+🔗 **Live App**: [https://resume-screening-app-nlp.streamlit.app/](https://resume-screening-app-nlp.streamlit.app/)
+
 ---
 
 ## 🚀 Features
@@ -42,15 +44,21 @@ A **Streamlit-based web application** for screening resumes against job descript
    ```bash
    git clone https://github.com/yourusername/resume-screening-app.git
    cd resume-screening-app
-   ```
+``
 
 2. **Create and activate a virtual environment:**
 
+   **Windows:**
+
    ```bash
    python -m venv venv
-   # On Windows:
    venv\Scripts\activate
-   # On Mac/Linux:
+   ```
+
+   **Mac/Linux:**
+
+   ```bash
+   python3 -m venv venv
    source venv/bin/activate
    ```
 
@@ -125,7 +133,7 @@ numpy==1.24.3
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
 ```
 
-> Run `python -m spacy download en_core_web_sm` if the app doesn't find the Spacy model.
+> 💡 Run `python -m spacy download en_core_web_sm` if the app doesn't find the SpaCy model.
 
 ---
 
@@ -148,5 +156,3 @@ This app is useful for:
 
 *Happy coding!* 🚀
 *Build responsibly with NLP and AI.* 💼✨
-
----
