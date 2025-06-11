@@ -44,7 +44,6 @@ A **Streamlit-based web application** for screening resumes against job descript
    ```bash
    git clone https://github.com/yourusername/resume-screening-app.git
    cd resume-screening-app
-``
 
 2. **Create and activate a virtual environment:**
 
