@@ -117,10 +117,12 @@ resume-screening-app/
 
 ```
 streamlit
-spacy
-sentence-transformers
-PyPDF2
 pandas
+PyPDF2
+sentence-transformers
+spacy==3.7.2
+numpy==1.24.3
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
 ```
 
 > Run `python -m spacy download en_core_web_sm` if the app doesn't find the Spacy model.
